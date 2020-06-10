@@ -40,7 +40,11 @@ function convertFromEnglish(words){
     if (vocab.singletonEnglish[word] != null) {
       hundreds += vocab.singletonEnglish[word]
     } else if (word == "hundred") {
-      hundreds = hundreds * 100
+      if (hundreds == 0) {
+        hundreds = 100
+      } else {
+        hundreds = hundreds * 100
+      }
     } else {
       lowNumbers = lowNumbers + hundreds * vocab.MagnitudeEnglish[word]
       hundreds = 0
