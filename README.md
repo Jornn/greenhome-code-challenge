@@ -5,4 +5,4 @@
 * Download code
 * npm i
 * Open 'convertWordsToDigits' or 'convertDigitsToWords'
-* run main.js and follow instructions
+* run main.js en volg instructies
