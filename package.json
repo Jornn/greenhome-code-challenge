@@ -1,0 +1,24 @@
+{
+  "name": "greenhome",
+  "version": "1.0.0",
+  "description": "* Download code\r * npm i\r * Open 'convertWordsToDigits' or 'convertDigitsToWords'\r * run main.js en volg instructies",
+  "main": "index.js",
+  "dependencies": {
+    "prompt-sync": "^4.2.0",
+    "syncprompt": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jornn/greenhome-code-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jornn/greenhome-code-challenge/issues"
+  },
+  "homepage": "https://github.com/Jornn/greenhome-code-challenge#readme"
+}
